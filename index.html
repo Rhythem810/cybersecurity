@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  
+    <header>
+        <div class="container">
+            <h1>Cyber Security Hub</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Protect Your Digital World</h2>
+            <p>Your security is our priority. Stay safe online with our expert solutions.</p>
+            <img src="images/security_banner.jpg" alt="Cyber Security Banner">
+        </div>
+    </section>
+    
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <img src="images/pen_testing.jpg" alt="Penetration Testing">
+                    <h3>Penetration Testing</h3>
+                    <p>Identify vulnerabilities in your systems before hackers do.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/network_security.jpg" alt="Network Security">
+                    <h3>Network Security</h3>
+                    <p>Secure your network against threats and unauthorized access.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/encryption.jpg" alt="Data Encryption">
+                    <h3>Data Encryption</h3>
+                    <p>Protect your sensitive data with advanced encryption techniques.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/cloud_security.jpg" alt="Cloud Security">
+                    <h3>Cloud Security</h3>
+                    <p>Ensure your cloud infrastructure is fully protected from cyber threats.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/security_training.jpg" alt="Security Training">
+                    <h3>Security Awareness Training</h3>
+                    <p>Educate your team to recognize and prevent security threats.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/vulnerability_management.jpg" alt="Vulnerability Management">
+                    <h3>Vulnerability Management</h3>
+                    <p>Continuously assess and remediate vulnerabilities in your systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of cybersecurity professionals dedicated to protecting businesses and individuals from cyber threats. With years of experience and a passion for security, we ensure your digital assets remain safe.</p>
+            <img src="images/team.jpg" alt="Cyber Security Team">
+        </div>
+    </section>
+    
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Latest Blog Posts</h2>
+            <article>
+                <h3><a href="blog/post1.html">Understanding Phishing Attacks</a></h3>
+                <p>Learn how to identify and prevent phishing scams.</p>
+            </article>
+            <article>
+                <h3><a href="blog/post2.html">Top 5 Cybersecurity Tips</a></h3>
+                <p>Enhance your security with these essential tips.</p>
+            </article>
+            <article>
+                <h3><a href="blog/post3.html">The Importance of Multi-Factor Authentication</a></h3>
+                <p>Why MFA should be part of your security strategy.</p>
+            </article>
+            <article>
+                <h3><a href="blog/post4.html">How to Protect Your Business from Ransomware</a></h3>
+                <p>Strategies to keep your business safe from ransomware attacks.</p>
+            </article>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="contact_process.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What is penetration testing?</h3>
+                <p>Penetration testing is a simulated cyberattack on your systems to identify vulnerabilities before attackers can exploit them.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I secure my network?</h3>
+                <p>Network security involves measures like firewalls, encryption, and intrusion detection systems to protect your network from unauthorized access and attacks.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is multi-factor authentication?</h3>
+                <p>Multi-factor authentication adds an extra layer of security by requiring more than just a password to access an account, such as a fingerprint or a code sent to your phone.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cyber Security Hub. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#"><img src="images/facebook.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
